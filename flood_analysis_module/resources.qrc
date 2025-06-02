@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/flood_analysis_module" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
