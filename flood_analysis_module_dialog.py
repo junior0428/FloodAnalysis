@@ -44,7 +44,7 @@ class flood_analysisDialog(QDialog):
         )
 
         # ───── Propiedades básicas del diálogo ─────
-        self.setWindowTitle("Análisis de Inundaciones")
+        self.setWindowTitle("FloodAnalysis")
         self.resize(600, 520)  # Ajustamos la altura para dejar espacio al label de área
 
         # ───── Layout principal ────────────────────
