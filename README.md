@@ -1,11 +1,12 @@
-## FloodAnalysis (QGIS Plugin) <img src="icon.png" alt="FloodAnalysis" width="7%"/>
+## FloodAnalysis (QGIS Plugin) <img src="img/icon.png" alt="FloodAnalysis" width="2.4%"/>
 
-[![QGIS-3.x](https://img.shields.io/badge/QGIS-3.22%2B-green.svg)](#requisitos)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-API-red)](#configuración-de-earth-engine)
-<img src="image.png" alt="FloodAnalysis banner" width="100%"/>
+[![QGIS 3.22+](https://img.shields.io/badge/QGIS-3.22%2B-green.svg?logo=qgis)](https://www.qgis.org/)
+[![Google Earth Engine API Python](https://img.shields.io/badge/GEE%20Python-API-red?logo=google-earth)](https://developers.google.com/earth-engine/tutorials/community/intro-to-python-api)
+[![Python 3.12.9](https://img.shields.io/badge/Python-3.12.9-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 
-Plugin para **QGIS 3.361** que estima y visualiza **áreas inundadas** a partir de **Sentinel-1** con un enfoque **difuso multivariable**, integra **Sentinel-2 (NDBI)**, **CHIRPS Daily (precipitación)**, **JRC-GSW (ocurrencia de agua)** y **HydroSHEDS (pendiente)**, y publica el resultado directamente como **capa XYZ** en el proyecto de QGIS.
+<img src="img/image.png" alt="FloodAnalysis banner" width="100%"/>
+
+Plugin para **QGIS 3.361** que estima y visualiza **áreas inundadas** a partir de **Sentinel-1** con un enfoque de **lógica difusa multivariable**, integra **Sentinel-2 (NDBI)**, **CHIRPS Daily (precipitación)**, **JRC-GSW (ocurrencia de agua)** y **HydroSHEDS (pendiente)**, y publica el resultado directamente como **capa XYZ** en el proyecto de QGIS.
 
 > **Nota**: Este repositorio contiene el código del plugin y un diálogo PyQt5. Requiere autenticación correcta con **Google Earth Engine (EE)**.
 

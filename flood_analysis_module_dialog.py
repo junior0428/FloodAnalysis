@@ -60,7 +60,7 @@ class flood_analysisDialog(QDialog):
         header_layout.setSpacing(6)
 
         icon_label = QLabel(header_frame)
-        icon_path = os.path.join(os.path.dirname(__file__), "icon.png")
+        icon_path = os.path.join(os.path.dirname(__file__), "img/icon.png")
         if os.path.exists(icon_path):
             icon_pix = QPixmap(icon_path).scaled(24, 24, Qt.KeepAspectRatio, Qt.SmoothTransformation)
             icon_label.setPixmap(icon_pix)
@@ -80,7 +80,7 @@ class flood_analysisDialog(QDialog):
 
         # 1) Imagen de portada a la izquierda (flood.png)
         image_label = QLabel(self)
-        image_path = os.path.join(os.path.dirname(__file__), "flood.png")
+        image_path = os.path.join(os.path.dirname(__file__), "img/flood.png")
         if os.path.exists(image_path):
             img_pixmap = QPixmap(image_path).scaledToWidth(260, Qt.SmoothTransformation)
             image_label.setPixmap(img_pixmap)
